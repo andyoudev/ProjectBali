@@ -45,6 +45,18 @@ h3 {
   align: right;
 } */
 
+/* Spacers */
+.gap-text {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.spacer-text {
+  font-family: 'Maginia', sans-serif;
+  font-size: 3rem;
+}
+
 
 /* Title */
 .landing-page {
