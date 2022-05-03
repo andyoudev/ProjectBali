@@ -6,29 +6,40 @@ body {
 }
 
 h4 {
-  font-family: 'Maginia', sans-serif;
+  font-family: "Quattrocento", serif;
 }
 
 h3 {
-  font-family: 'Maginia', sans-serif;
+  font-family: "Quattrocento", serif;
 }
 
+p {
+  font-family: "Quattrocento", serif;
+}
+
+.PB-Logo {
+  font-family: 'Numans', sans-serif;
+  color: black;
+  letter-spacing: 2px;
+}
 
 .banner {
-  padding: 0 2% 0 2%;
+  padding: 2% 2% 0 2%;
   background-color: white;
 }
 
 /* Navigation Bar */
+
 
 .navbar {
   padding: 0 0 2rem;
 }
 
 .navbar-brand {
-  font-family: "";
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-family: 'Numans', sans-serif;
+  font-size: 2rem;
+  color: black;
+  letter-spacing: 2px;
 }
 
 .nav-item {
@@ -36,8 +47,8 @@ h3 {
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  font-family: "Arial";
+  font-size: 1.4rem;
+  font-family: 'Numans', sans-serif;
 }
 
 /* #navbarTogglerDemo02 {
@@ -53,7 +64,7 @@ h3 {
 }
 
 .spacer-text {
-  font-family: 'Maginia', sans-serif;
+  font-family: "Quattrocento", serif;
   font-size: 3rem;
 }
 
@@ -61,19 +72,76 @@ h3 {
 /* Title */
 .landing-page {
   background-image: url("images/Landing-pg-bg.png");
+  width: 1000px;
   height: 650px;
 }
 
 .tag-line {
   position: absolute;
-  font-family: 'Maginia', sans-serif;
+  font-family: "Quattrocento", serif;
   font-size: 3rem;
   /* font-family: "Quattrocento", serif; */
   /* text-align: center; */
   /* align-self: center; */
   margin-top: 200px;
   padding: 2% 4% 2% 4%;
-  background-color: #FCFFE7;
+  background-color: #D3E4CD;
+}
+
+.landing-body {
+  position: absolute;
+  right: 0;
+  width: 500px;
+  height: 650px;
+  /* margin-left: 10px; */
+  padding: 0 0 0 3.5%;;
+  background-color: white;
+}
+
+.PB-Logo-main {
+  font-family: 'Numans', sans-serif;
+  font-size: 3rem;
+  color: black;
+  letter-spacing: 2px;
+  margin-top: 50%;
+}
+
+.tagline-main {
+  width: 400px;
+  font-family: "Quattrocento", serif;
+  font-size: 1rem;
+  text-align: left;
+  margin: 10% 0 0 0;
+}
+
+.intro-heading {
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin: 8% 0 2% 15%;
+}
+
+.first-para-rw {
+  margin: 8% 10% 5% 10%;
+}
+
+.scnd-para-row {
+  margin: 8% 10% 15% 10%;
+}
+
+#scnd-para-img {
+  position: absolute;
+  right: 11.5%;
+}
+
+#scnd-para-text {
+  position: absolute;
+  right: 36%;
+  height: 200px;
+  width: 800px;
+  margin-top: 12%;
+  padding: 2% 8% 2% 3%;
+  background-color: #D3E4CD;
+  z-index: 2;
 }
 
 /* Font Tests */
@@ -96,11 +164,17 @@ h3 {
   font-family: "Quattrocento", serif;
 }
 
+/* font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Numans', sans-serif;
+font-family: 'Sarala', sans-serif;
+font-family: 'Sora', sans-serif; */
 
 
 /* Intro Text */
 
 .intro-text {
+  margin-bottom: 20%;
   padding: 1% 0 3% 0;
   background-color: white;
 }
@@ -109,7 +183,7 @@ h3 {
   width: 600px;
   margin: 2% 2% 2% 2%;
   padding: 1% 2% 1% 2%;
-  background-color: #FCFFE7;
+  background-color: #D3E4CD;
 }
 
 .intro-body-2 {
@@ -117,7 +191,7 @@ h3 {
   height: 425px;
   margin-left: 10px;
   padding: 1% 2% 1% 2%;
-  background-color: #FCFFE7;
+  background-color: #D3E4CD;
 }
 
 .read-more-link {
@@ -147,7 +221,7 @@ h3 {
   height: 350px;
   margin: 0;
   padding: 1% 2% 1% 2%;
-  background-color: #FCFFE7;
+  background-color: #D3E4CD;
 }
 
 .WWD-ptr-img {
@@ -160,7 +234,7 @@ h3 {
   width: 1410px;
   margin: 0;
   padding: 1% 2% 1% 2%;
-  background-color: #FCFFE7;
+  background-color: #D3E4CD;
 }
 
 /* Our Designs */
@@ -176,7 +250,7 @@ h3 {
   height: 425px;
   margin-left: 10px;
   padding: 1% 2% 1% 2%;
-  background-color: #FCFFE7;
+  background-color: #D3E4CD;
 }
 
 /* Testimonials */
@@ -202,7 +276,7 @@ h3 {
 }
 
 .btn:hover {
-  background-color: #FCFFE7;
+  background-color: #D3E4CD;
 }
 
 
