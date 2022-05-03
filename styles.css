@@ -131,7 +131,7 @@ p {
 }
 
 .first-para-rw {
-  margin: 8% 10% 5% 10%;
+  margin: 7% 10% 5% 10%;
 }
 
 .scnd-para-row {
@@ -146,13 +146,48 @@ p {
 #scnd-para-text {
   position: absolute;
   right: 36%;
-  height: 200px;
+  height: 210px;
   width: 800px;
   margin-top: 12%;
-  padding: 2% 8% 2% 3%;
+  padding: 2% 8% 2% 2.5%;
   background-color: #D3E4CD;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
   z-index: 2;
 }
+
+.usps-text {
+  position: absolute;
+  left: 12%;
+  margin-top: 1%;
+  font-family: 'Numans', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.usps-you {
+  text-decoration: overline;
+}
+
+.usps-text2 {
+  position: absolute;
+  left: 12%;
+  margin-top: 3.5%;
+  font-size: 1rem;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.testim-byline {
+  position: absolute;
+  right: 40.5%;
+  margin-top: 26.2%;
+}
+/* .testim-space {
+  margin-right: 280px;
+} */
 
 /* Font Tests */
 .text1 {
