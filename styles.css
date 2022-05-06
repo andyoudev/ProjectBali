@@ -244,9 +244,102 @@ font-family: 'Sora', sans-serif; */
 }
 
 /* What we do */
+
+.WWD-Main-IMG {
+  width: 70%;
+  margin: 5% 15% 0 15%;
+}
+
+.WWD-Main-Title {
+  text-align: center;
+  margin: 0 0 10% 0;
+}
+
+.WWD-Main-Text {
+  position: absolute;
+  width: 40%;
+  margin: -10% 30% 0 30%;
+  padding: 3% 4% 4% 4%;
+  background-color: #D3E4CD;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  z-index: 2;
+}
+
+
+
 .what-we-do-text {
+  margin-top: 25%;
   background-color: white;
 }
+
+.WWD-sml-photo-rw {
+  width: 80%;
+  margin: 0 10% 1.5% 10%;
+}
+
+.WWD-lndscp-sml-img {
+  width: 100%;
+}
+
+.WWD-2nd-para {
+  width: 80%;
+  margin: 8% 10% 8% 10%;
+}
+
+.WWD-2nd-para-text {
+  width: 30%;
+  margin: 7% 0 0 12%;
+}
+
+.WWD-2nd-para-img {
+  width: 40%;
+  margin: 0 0 0 12%;
+}
+
+.WWD-sml-photo-Matrls-rw {
+  width: 80%;
+  margin: 5% 10% 1.5% 10%;
+  padding-right: 10%;
+}
+
+.WWD-Matrls-img {
+  margin: 0 2% 0 5%;
+}
+
+.WWD-Matrls-Text {
+  position: absolute;
+  width: 45%;
+  margin: -10% 0 0 35%;
+  padding: 3% 4% 4% 4%;
+  background-color: #D3E4CD;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  z-index: 2;
+}
+
+.WWD-Matrls-Title {
+  position: absolute;
+  margin: -19% 0 0 45%;
+  font-size: 1.6rem;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.Matrls-spacer {
+  margin-bottom: 20%;
+}
+
+
+
+
+
+
+
+
+
 
 .WWD-rw {
   width: 1420px;
@@ -312,6 +405,24 @@ font-family: 'Sora', sans-serif; */
   margin-left: 10px;
   padding: 1% 2% 1% 2%;
   background-color: #FCFFE7;
+}
+
+/* Contact Us */
+.Contact-Text {
+  position: absolute;
+  width: 40%;
+  margin: -30% 30% 0 30%;
+  padding: 3% 4% 4% 4%;
+  background-color: #F7F5F2;
+  opacity: 0.95;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  z-index: 2;
+}
+
+.form-control {
+  margin-top: 1%;
 }
 
 .whatsapp-link {
