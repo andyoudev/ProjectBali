@@ -47,7 +47,7 @@ p {
 }
 
 .nav-link {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-family: 'Numans', sans-serif;
 }
 
@@ -73,6 +73,53 @@ p {
   font-size: 3rem;
 }
 
+/* Landing Graphic */
+#landing-graphic1 {
+  display: none;
+}
+
+#landing-graphic2 {
+  display: none;
+}
+
+#landing-graphic3 {
+  display: none;
+}
+
+#landing-graphic4 {
+  display: none;
+}
+
+/* #anim-logo {
+  display: none;
+} */
+
+.landing-graphic-img {
+  position: absolute;
+  /* height: 400px; */
+  width: 100%;
+  left: 0;
+  top: -170px;
+  clip: rect(300px, auto, auto,0);
+}
+
+.PB-Logo-main-anim {
+  position: absolute;
+  font-family: "Quattrocento", serif;
+  font-size: 3rem;
+  color: black;
+  opacity: 0.2;
+  letter-spacing: 2px;
+  margin: 15% 0 0 15%;
+  z-index: -1;
+}
+
+.nav-arrow {
+  position: absolute;
+  width: 3%;
+  margin: 26% 45% 0 48%;
+  z-index: 2;
+}
 
 /* Title */
 .landing-page {
@@ -136,8 +183,38 @@ p {
   margin: 8% 0 2% 12%;
 }
 
+.intro-heading-test {
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin: 10% 0 2% 3%;
+}
+
 .first-para-rw {
   margin: 7% 10% 5% 10%;
+}
+
+.first-para-rw-test {
+  margin: 4% 10% 0 10%;
+}
+
+.testim-col {
+  padding: 0 1% 0 1%;
+}
+
+.testim-link {
+  font-family: "Quattrocento", serif;
+  text-decoration: none;
+  color: black;
+}
+
+.testim-link:hover {
+  color: grey;
+}
+
+.nav-arrow-up {
+  transform: rotate(180deg);
+  width: 10%;
+  margin: 2% 45% 0 45%;
 }
 
 .scnd-para-row {
@@ -406,7 +483,15 @@ font-family: 'Sora', sans-serif; */
 }
 
 .OD-rw {
+  /* width: 100%; */
   width: 1360px;
+  margin: auto;
+  padding: 10px 15px 0 15px;
+}
+
+.OD-rw-test {
+  /* width: 100%; */
+  width: 1300px;
   margin: auto;
   padding: 10px 15px 0 15px;
 }
@@ -496,6 +581,11 @@ font-family: 'Sora', sans-serif; */
 #footer {
   text-align: center;
   padding: 2% 0 3% 0;
+}
+
+#footer-test {
+  text-align: center;
+  padding: 0 0 3% 0;
 }
 
 .PrBa-icon {
