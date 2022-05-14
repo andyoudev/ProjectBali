@@ -103,6 +103,7 @@ p {
   /* height: 400px; */
   width: 100%;
   left: 0;
+  /* top: -20%; */
   top: -170px;
   clip: rect(300px, auto, auto,0);
 }
