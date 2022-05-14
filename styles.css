@@ -18,19 +18,18 @@ p {
   font-family: "Quattrocento", serif;
 }
 
-.PB-Logo {
-  font-family: 'Numans', sans-serif;
-  color: black;
-  letter-spacing: 2px;
-}
+/* Banner Section */
 
 .banner {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   padding: 2% 2% 0 2%;
   background-color: white;
+  z-index: 4;
 }
 
 /* Navigation Bar */
-
 
 .navbar {
   padding: 0 0 2rem;
@@ -53,29 +52,19 @@ p {
 }
 
 .active {
-  /* text-decoration-color: red; */
   text-decoration: overline;
 }
 
-/* #navbarTogglerDemo02 {
-  padding-right: 100px;
-  align: right;
-} */
+/* Landing Page Section */
 
-/* Spacers */
-.gap-text {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  text-align: center;
-}
-
-.spacer-text {
-  font-family: "Quattrocento", serif;
-  font-size: 3rem;
+.landing-page {
+  /* background-image: url("images/Landing-pg-bg3.png"); */
+  /* width: 1000px; */
+  height: 650px;
 }
 
 /* Landing Graphic */
-#landing-graphic1 {
+/* #landing-graphic1 {
   display: none;
 }
 
@@ -91,11 +80,25 @@ p {
   display: none;
 }
 
-/* #anim-logo {
+#landing-graphic5 {
+  display: none;
+}
+
+#landing-graphic6 {
   display: none;
 } */
 
 .landing-graphic-img {
+  display: none;
+  position: absolute;
+  /* height: 400px; */
+  width: 100%;
+  left: 0;
+  top: -170px;
+  clip: rect(300px, auto, auto,0);
+}
+
+.landing-graphic-img-contact {
   position: absolute;
   /* height: 400px; */
   width: 100%;
@@ -105,13 +108,15 @@ p {
 }
 
 .PB-Logo-main-anim {
-  position: absolute;
+  position: relative;
   font-family: "Quattrocento", serif;
-  font-size: 3rem;
+  font-size: 35px;
+  text-align: center;
+  /* font-size: 3rem; */
   color: black;
   opacity: 0.2;
   letter-spacing: 2px;
-  margin: 15% 0 0 15%;
+  margin: 15% 0 0 0;
   z-index: -1;
 }
 
@@ -119,16 +124,345 @@ p {
   position: absolute;
   width: 45px;
   /* 3% */
-  margin: 29% 45% 0 49%;
+  margin: 2% 45% 0 49%;
   z-index: 2;
 }
 
-/* Title */
-.landing-page {
-  /* background-image: url("images/Landing-pg-bg3.png"); */
-  /* width: 1000px; */
-  height: 650px;
+.nav-arrow-up {
+  transform: rotate(180deg);
+  width: 45px;
+  margin: 2% 45% 0 45%;
 }
+/* Quote and Sml Image */
+
+.WWD-lndscp-sml-img {
+  width: 100%;
+}
+
+.testim-quote {
+  position: relative;
+  font-size: 0.95rem;
+  width: 90%;
+  background-color: #D3E4CD;
+  padding: 4% 7% 2% 6%;
+  margin: -15% 5% 0 5%;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  z-index: 2;
+}
+
+.testim-link {
+  font-family: "Quattrocento", serif;
+  text-decoration: none;
+  color: black;
+}
+
+.testim-link:hover {
+  color: grey;
+}
+
+/* ------------------------------------- */
+
+
+
+/* Intro Section ..... index, what, designs*/
+
+.intro-text {
+  margin-bottom: 5%;
+  padding: 1% 0 3% 0;
+  background-color: white;
+}
+
+.OD-rw-test {
+  /* width: 100%; */
+  width: 1300px;
+  margin: auto;
+  padding: 10px 15px 0 15px;
+}
+
+/* .intro-heading-test-home {
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin: 10% 0 2% 3%;
+} */
+
+.intro-heading-test {
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin: 0% 0 2% 3%;
+}
+
+.first-para-rw-test {
+  margin: 4% 10% 0 10%;
+}
+
+
+/* what we do page */
+
+.what-we-do-text {
+  /* margin-top: 25%; */
+  background-color: white;
+}
+
+.WWD-sml-photo-rw-what {
+  width: 80%;
+  margin: 0 10% 5% 10%;
+}
+
+.WWD-sml-photo-rw {
+  width: 80%;
+  margin: 0 10% 1.5% 10%;
+}
+
+.WWD-lndscp-sml-img {
+  width: 100%;
+}
+
+.WWD-2nd-para {
+  width: 80%;
+  margin: 8% 10% 8% 10%;
+}
+
+.WWD-2nd-para-text {
+  width: 38%;
+  margin: 0 0 0 7%;
+}
+
+.WWD-2nd-para-img {
+  width: 40%;
+  margin: 0 0 0 9%;
+}
+
+.WWD-Cust-Title {
+  /* text-align: center; */
+  /* font-size: 2.7rem; */
+  margin: 0 0 10% 0;
+}
+
+.WWD-Matrls-img {
+  width: 90%;
+  margin: 0 2% 0 5%;
+}
+
+.testim-content-2 {
+  width: 1050px;
+
+  /* width: 80%; */
+  margin: 8% 10% 8% 15%;
+}
+
+.testim-ptr-img {
+  width: 450px;
+}
+
+.testim-body-mats {
+  font-size: 1rem;
+  width: 405px;
+}
+
+.bali-mats-col {
+  padding-left: 8%;
+}
+
+/* Designs */
+
+.our-designs-text {
+  /* margin-top: 28%; */
+}
+
+
+/* .WWD-sml-photo-rw
+.WWD-lndscp-sml-img
+See above */
+
+.OD-rw-test-3bdr {
+  width: 1300px;
+  margin: 0 auto 5% auto;
+  padding: 10px 15px 0 15px;
+}
+
+.des-spacer {
+  margin-top: 7%;
+}
+
+/* .WWD-Cust-Title
+see above */
+
+/* .testim-body-feat {
+  font-size: 1rem;
+  width: 370px;
+} */
+
+.WWD-lndscp-sml-img-feat {
+  width: 100%;
+  margin-top: 6%;
+}
+
+/* Testimonials */
+
+/* .testim-content-2
+.testim-ptr-img
+see above */
+
+.testimonials-text {
+  /* margin-top: 30%; */
+}
+
+.intro-text-testim {
+  padding: 1% 0 3% 0;
+  background-color: white;
+}
+
+.OD-rw-test-testim {
+  /* width: 100%; */
+  width: 1050px;
+  /* width: 1300px; */
+  margin: 0 10% 0 12%;
+  padding: 10px 15px 0 15px;
+  /* margin: auto; */
+  /* padding: 10px 15px 0 15px; */
+}
+
+.testim-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.testim-body {
+  font-size: 1rem;
+  width: 450px;
+}
+
+.testim-content-1 {
+  width: 1050px;
+  /* width: 80%; */
+  margin: 0 10% 8% 15%;
+}
+
+/* Contact */
+
+.WWD-Main-Title {
+  text-align: center;
+  font-size: 2.7rem;
+  margin: 0 0 10% 0;
+}
+
+.Contact-Text {
+  position: absolute;
+  width: 40%;
+  margin: -30% 30% 0 30%;
+  padding: 3% 4% 4% 4%;
+  background-color: #F7F5F2;
+  opacity: 0.95;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  z-index: 2;
+}
+
+.form-control {
+  margin-top: 1%;
+}
+
+.whatsapp-link {
+  width: 900px;
+  margin: 3% auto 3% auto;
+  /* margin-left: 60%; */
+}
+
+.btn:hover {
+  background-color: #D3E4CD;
+}
+
+.Matrls-spacer {
+  margin-bottom: 20%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 2% 0 3% 0;
+}
+
+#footer-test {
+  text-align: center;
+  padding: 0 0 3% 0;
+}
+
+.showhome-text {
+  /* position: relative; */
+  font-size: 1rem;
+  width: 400px;
+  background-color: #D3E4CD;
+  padding: 1% 2% 0 2%;
+  margin: 0 auto 2% auto;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  /* z-index: 2; */
+}
+
+.PrBa-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1028px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .PB-Logo {
+  font-family: 'Numans', sans-serif;
+  color: black;
+  letter-spacing: 2px;
+}
+
+
+
+
+.gap-text {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.spacer-text {
+  font-family: "Quattrocento", serif;
+  font-size: 3rem;
+}
+
+
 
 .img-main-landing {
   position: absolute;
@@ -140,9 +474,6 @@ p {
   position: absolute;
   font-family: "Quattrocento", serif;
   font-size: 3rem;
-  /* font-family: "Quattrocento", serif; */
-  /* text-align: center; */
-  /* align-self: center; */
   margin-top: 200px;
   padding: 2% 4% 2% 4%;
   background-color: #D3E4CD;
@@ -153,7 +484,6 @@ p {
   right: 0;
   width: 500px;
   height: 650px;
-  /* margin-left: 10px; */
   padding: 0 0 0 2%;;
   background-color: white;
 }
@@ -185,58 +515,22 @@ p {
   margin: 8% 0 2% 12%;
 }
 
-.intro-heading-test {
-  letter-spacing: 1.5px;
-  text-align: left;
-  margin: 10% 0 2% 3%;
-}
 
-.intro-heading-test-3bdvilla {
-  letter-spacing: 1.5px;
-  text-align: left;
-  margin: 0 0 2% 3%;
-}
+
+
 
 .first-para-rw {
   margin: 7% 10% 5% 10%;
 }
 
-.first-para-rw-test {
-  margin: 4% 10% 0 10%;
-}
+
 
 .testim-col {
   padding: 0 1% 0 1%;
 }
 
-.testim-link {
-  font-family: "Quattrocento", serif;
-  text-decoration: none;
-  color: black;
-}
 
-.testim-link:hover {
-  color: grey;
-}
 
-.testim-quote {
-  position: relative;
-  font-size: 0.95rem;
-  width: 90%;
-  background-color: #D3E4CD;
-  padding: 4% 7% 2% 6%;
-  margin: -15% 5% 0 5%;
-  border-style: solid;
-  border-width: thick;
-  border-color: white;
-  z-index: 2;
-}
-
-.nav-arrow-up {
-  transform: rotate(180deg);
-  width: 45px;
-  margin: 2% 45% 0 45%;
-}
 
 .scnd-para-row {
   margin: 8% 10% 15% 10%;
@@ -289,11 +583,6 @@ p {
   right: 40.5%;
   margin-top: 26.2%;
 }
-/* .testim-space {
-  margin-right: 280px;
-} */
-
-/* Font Tests */
 .text1 {
   font-family: 'Dimensity', sans-serif;
 }
@@ -313,20 +602,7 @@ p {
   font-family: "Quattrocento", serif;
 }
 
-/* font-family: 'Alegreya Sans SC', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Numans', sans-serif;
-font-family: 'Sarala', sans-serif;
-font-family: 'Sora', sans-serif; */
 
-
-/* Intro Text */
-
-.intro-text {
-  margin-bottom: 5%;
-  padding: 1% 0 3% 0;
-  background-color: white;
-}
 
 .intro-body {
   width: 600px;
@@ -347,18 +623,13 @@ font-family: 'Sora', sans-serif; */
 
 }
 
-/* What we do */
 
 .WWD-Main-IMG {
   width: 70%;
   margin: 5% 15% 0 15%;
 }
 
-.WWD-Main-Title {
-  text-align: center;
-  font-size: 2.7rem;
-  margin: 0 0 10% 0;
-}
+
 
 .WWD-Main-Text {
   position: absolute;
@@ -374,45 +645,12 @@ font-family: 'Sora', sans-serif; */
 
 
 
-.what-we-do-text {
-  /* margin-top: 25%; */
-  background-color: white;
-}
 
-.WWD-sml-photo-rw {
-  width: 80%;
-  margin: 0 10% 1.5% 10%;
-}
 
-.WWD-lndscp-sml-img {
-  width: 100%;
-}
 
-.WWD-lndscp-sml-img-feat {
-  width: 100%;
-  margin-top: 6%;
-}
 
-.WWD-Cust-Title {
-  /* text-align: center; */
-  /* font-size: 2.7rem; */
-  margin: 0 0 10% 0;
-}
 
-.WWD-2nd-para {
-  width: 80%;
-  margin: 8% 10% 8% 10%;
-}
 
-.WWD-2nd-para-text {
-  width: 38%;
-  margin: 0 0 0 7%;
-}
-
-.WWD-2nd-para-img {
-  width: 40%;
-  margin: 0 0 0 9%;
-}
 
 .WWD-sml-photo-Matrls-rw {
   width: 80%;
@@ -420,10 +658,7 @@ font-family: 'Sora', sans-serif; */
   padding-right: 10%;
 }
 
-.WWD-Matrls-img {
-  width: 90%;
-  margin: 0 2% 0 5%;
-}
+
 
 .WWD-Matrls-Text {
   position: absolute;
@@ -445,9 +680,6 @@ font-family: 'Sora', sans-serif; */
   letter-spacing: 2px;
 }
 
-.Matrls-spacer {
-  margin-bottom: 20%;
-}
 
 
 
@@ -468,7 +700,6 @@ font-family: 'Sora', sans-serif; */
   width: 690px;
   height: 350px;
   margin: 0;
-  /* padding: 1% 2% 1% 2%; */
 }
 
 .WWD-lndscp-body {
@@ -482,7 +713,6 @@ font-family: 'Sora', sans-serif; */
 .WWD-ptr-img {
   width: 450px;
   margin: 0;
-  /* padding: 1% 2% 1% 2%; */
 }
 
 .WWD-fullwdth-body {
@@ -492,11 +722,8 @@ font-family: 'Sora', sans-serif; */
   background-color: #D3E4CD;
 }
 
-/* Our Designs */
 
-.our-designs-text {
-  /* margin-top: 28%; */
-}
+
 
 .des-label {
   width: 65%;
@@ -504,26 +731,17 @@ font-family: 'Sora', sans-serif; */
   margin: 25% auto 0 auto;
 }
 
-.des-spacer {
-  margin-top: 7%;
-}
+
 
 .OD-rw {
-  /* width: 100%; */
   width: 1360px;
   margin: auto;
   padding: 10px 15px 0 15px;
 }
 
-.OD-rw-test {
-  /* width: 100%; */
-  width: 1300px;
-  margin: auto;
-  padding: 10px 15px 0 15px;
-}
+
 
 .OD-rw-test-3bdvilla {
-  /* width: 100%; */
   width: 1300px;
   margin: 0 auto 2% auto;
   padding: 0 15px 0 15px;
@@ -539,45 +757,11 @@ font-family: 'Sora', sans-serif; */
   background-color: #D3E4CD;
 }
 
-/* Testimonials */
-.testimonials-text {
-  /* margin-top: 30%; */
-}
 
-.testim-content-1 {
-  width: 80%;
-  margin: 8% 10% 8% 15%;
-}
 
-.testim-content-2 {
-  width: 80%;
-  margin: 8% 10% 8% 15%;
-}
 
-.testim-title {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-top: 1%;
-}
 
-.testim-body {
-  font-size: 1rem;
-  width: 450px;
-}
 
-.testim-body-feat {
-  font-size: 1rem;
-  width: 370px;
-}
-
-.testim-body-mats {
-  font-size: 1rem;
-  width: 405px;
-}
-
-.testim-ptr-img {
-  width: 450px;
-}
 
 .tst-rw {
   width: 1360px;
@@ -591,54 +775,4 @@ font-family: 'Sora', sans-serif; */
   margin-left: 10px;
   padding: 1% 2% 1% 2%;
   background-color: #FCFFE7;
-}
-
-/* Contact Us */
-.Contact-Text {
-  position: absolute;
-  width: 40%;
-  margin: -30% 30% 0 30%;
-  padding: 3% 4% 4% 4%;
-  background-color: #F7F5F2;
-  opacity: 0.95;
-  border-style: solid;
-  border-width: thick;
-  border-color: white;
-  z-index: 2;
-}
-
-.form-control {
-  margin-top: 1%;
-}
-
-.whatsapp-link {
-  width: 900px;
-  margin: 3% auto 3% auto;
-  /* margin-left: 60%; */
-}
-
-.btn:hover {
-  background-color: #D3E4CD;
-}
-
-
-/* Footer */
-#footer {
-  text-align: center;
-  padding: 2% 0 3% 0;
-}
-
-#footer-test {
-  text-align: center;
-  padding: 0 0 3% 0;
-}
-
-.PrBa-icon {
-  font-size: 2rem;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 1028px) {
-
-}
+} */
