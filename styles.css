@@ -60,7 +60,7 @@ p {
 .landing-page {
   /* background-image: url("images/Landing-pg-bg3.png"); */
   /* width: 1000px; */
-  height: 650px;
+  height: 600px;
 }
 
 /* Landing Graphic */
@@ -105,8 +105,19 @@ p {
   left: 0;
   /* top: -20%; */
   top: -170px;
+  /* top: 130px; */
   clip: rect(300px, auto, auto,0);
 }
+
+/* .test-div {
+  position: absolute;
+  width: 1500px;
+  height: 700px;
+  left: 0;
+  top: 130px;
+  background-color: red;
+  z-index: -1;
+} */
 
 .PB-Logo-main-anim {
   position: relative;
@@ -170,16 +181,16 @@ p {
 /* Intro Section ..... index, what, designs*/
 
 .intro-text {
-  margin-bottom: 5%;
-  padding: 1% 0 3% 0;
+  margin-bottom: 2%;
+  padding: 0 0 3% 0;
   background-color: white;
 }
 
 .OD-rw-test {
   /* width: 100%; */
-  width: 1300px;
-  margin: auto;
-  padding: 10px 15px 0 15px;
+  /* width: 1300px; */
+  margin: 0 10% 0 10%;
+  /* padding: 10px 15px 0 15px; */
 }
 
 /* .intro-heading-test-home {
@@ -191,11 +202,11 @@ p {
 .intro-heading-test {
   letter-spacing: 1.5px;
   text-align: left;
-  margin: 0% 0 2% 3%;
+  margin: 1% 0 1% 0;
 }
 
 .first-para-rw-test {
-  margin: 4% 10% 0 10%;
+  margin: 2% 10% 0 10%;
 }
 
 
@@ -218,6 +229,7 @@ p {
 
 .WWD-lndscp-sml-img {
   width: 100%;
+  margin-top: 1%;
 }
 
 .WWD-2nd-para {
@@ -248,10 +260,16 @@ p {
 
 .testim-content-2 {
   width: 1050px;
-
   /* width: 80%; */
   margin: 8% 10% 8% 15%;
 }
+
+.testim-content-1-what {
+  width: 1050px;
+  /* width: 80%; */
+  margin: 3% 15% 8% 15%;
+}
+
 
 .testim-ptr-img {
   width: 450px;
@@ -264,6 +282,15 @@ p {
 
 .bali-mats-col {
   padding-left: 8%;
+}
+
+/* Why */
+
+.OD-rw-test-ulu {
+  /* width: 100%; */
+  /* width: 1300px; */
+  margin: 3% 10% 0 10%;
+  /* padding: 10px 15px 0 15px; */
 }
 
 /* Designs */
@@ -279,8 +306,8 @@ See above */
 
 .OD-rw-test-3bdr {
   width: 1300px;
-  margin: 0 auto 5% auto;
-  padding: 10px 15px 0 15px;
+  margin: 0 10% 5% 10%;
+  /* padding: 10px 15px 0 15px; */
 }
 
 .des-spacer {
@@ -319,8 +346,8 @@ see above */
   /* width: 100%; */
   width: 1050px;
   /* width: 1300px; */
-  margin: 0 10% 0 12%;
-  padding: 10px 15px 0 15px;
+  margin: 0 15% 0 15%;
+  /* padding: 10px 15px 0 15px; */
   /* margin: auto; */
   /* padding: 10px 15px 0 15px; */
 }
@@ -339,7 +366,7 @@ see above */
 .testim-content-1 {
   width: 1050px;
   /* width: 80%; */
-  margin: 0 10% 8% 15%;
+  margin: 0 15% 8% 15%;
 }
 
 /* Contact */
