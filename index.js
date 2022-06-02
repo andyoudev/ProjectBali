@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   myFadeAnim(1);
   setInterval(function() {
-    if(imgId > 6) {
+    if(imgId > 8) {
         imgId = 1;
     }
 
