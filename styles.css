@@ -451,6 +451,19 @@ see above */
 
 @media (max-width: 1028px) {
 
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .logo-icon {
+    width: 25px;
+  }
+
+  .PB-Logo-main-anim {
+    font-size: 20px;
+    margin: 0 5% 0 5%;
+  }
+
   .landing-graphic-img {
     display: none;
     position: absolute;
@@ -469,6 +482,31 @@ see above */
     /* top: -20%; */
     top: 0;
     clip: rect(auto, auto, auto, auto);
+  }
+
+  .OD-rw-test {
+    margin: 0 2% 0 2%;
+  }
+
+  .first-para-rw-test {
+    margin: 2% 2% 0 2%;
+  }
+
+  .OD-rw-test-ulu {
+    /* width: 100%; */
+    /* width: 1300px; */
+    margin: 3% 2% 0 2%;
+    /* padding: 10px 15px 0 15px; */
+  }
+
+  .WWD-sml-photo-rw-what {
+    width: 96%;
+    margin: 0 2% 5% 2%;
+  }
+
+  .WWD-sml-photo-rw {
+    width: 96%;
+    margin: 0 2% 1.5% 2%;
   }
 
 
