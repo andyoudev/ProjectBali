@@ -60,6 +60,12 @@ p {
   padding-bottom: 4px;
 }
 
+.navbar-toggler {
+  border-style: none;
+  /* border: none; */
+}
+
+
 /* Landing Page Section */
 
 .landing-page {
@@ -93,10 +99,10 @@ p {
   display: none;
 } */
 
-.photo-width-test {
+/* .photo-width-test {
   width: 100%;
   left: 0;
-}
+} */
 
 
 .landing-graphic-img {
@@ -452,11 +458,15 @@ see above */
 @media (max-width: 1028px) {
 
   .navbar-brand {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .logo-icon {
-    width: 25px;
+    width: 30px;
+  }
+
+  .landing-page {
+    width: 100%;
   }
 
   .PB-Logo-main-anim {
@@ -464,23 +474,36 @@ see above */
     margin: 0 5% 0 5%;
   }
 
+  .land-img-container{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+
   .landing-graphic-img {
     display: none;
-    position: absolute;
-    /* height: 800px; */
-    width: 100%;
-    /* left: -200px; */
-    top: 0;
+    position: inherit;
+    height: 500px;
+    /* width: 900px; */
+    min-width: 750px;
+    max-width: none;
+    margin: 0 0 0 -20%;
+    /* left: -170px; */
+    /* top: 0; */
     clip: rect(auto, auto, auto, auto);
+    /* overflow: hidden; doesn't work*/
   }
 
   .landing-graphic-img-contact {
-    position: absolute;
-    /* height: 400px; */
-    width: 100%;
-    left: 0;
-    /* top: -20%; */
-    top: 0;
+    position: inherit;
+    height: 500px;
+    /* width: 900px; */
+    min-width: 750px;
+    max-width: none;
+    margin: 0 0 0 -20%;
+    /* left: -170px; */
+    /* top: 0; */
     clip: rect(auto, auto, auto, auto);
   }
 
@@ -508,6 +531,41 @@ see above */
     width: 96%;
     margin: 0 2% 1.5% 2%;
   }
+
+  .testim-content-1-what {
+    /* width: 1050px; */
+    width: 96%;
+    margin: 3% 2% 8% 2%;
+  }
+
+  .testim-content-1 {
+    /* width: 1050px; */
+    width: 96%;
+    margin: 0 2% 8% 2%;
+  }
+
+  .OD-rw-test-testim {
+    width: 96%;
+    /* width: 1050px; */
+    margin: 0 2% 0 2%;
+  }
+
+  .Contact-Text {
+    position: absolute;
+    width: 90%;
+    margin: -30% 5% 0 5%;
+    padding: 3% 4% 4% 4%;
+    background-color: #F7F5F2;
+    opacity: 0.95;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    z-index: 2;
+  }
+
+
+
+
 
 
 
