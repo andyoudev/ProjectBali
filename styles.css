@@ -376,7 +376,7 @@ see above */
 }
 
 .testim-body {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   width: 450px;
 }
 
@@ -436,17 +436,21 @@ see above */
   padding: 0 0 3% 0;
 }
 
-.showhome-text {
+.showhome-link {
   /* position: relative; */
-  font-size: 1rem;
+  /* font-size: 1rem; */
   width: 400px;
   background-color: #D3E4CD;
-  padding: 1% 2% 0 2%;
   margin: 0 auto 2% auto;
+  border-radius: 25px;
   border-style: solid;
   border-width: thick;
   border-color: white;
   /* z-index: 2; */
+}
+
+.showhome-text {
+  margin: 2% 0 2% 0;
 }
 
 .PrBa-icon {
@@ -456,13 +460,24 @@ see above */
 }
 
 @media (max-width: 1028px) {
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+  }
+
+  .navbar {
+    padding: 0 0 1rem;
+  }
 
   .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .logo-icon {
-    width: 30px;
+    width: 45px;
   }
 
   .landing-page {
@@ -532,6 +547,10 @@ see above */
     margin: 0 2% 1.5% 2%;
   }
 
+  .WWD-lndscp-sml-img {
+    margin-top: 5%;
+  }
+
   .testim-content-1-what {
     /* width: 1050px; */
     width: 96%;
@@ -550,10 +569,19 @@ see above */
     margin: 0 2% 0 2%;
   }
 
+  .testim-body {
+    /* font-size: 1rem; */
+    width: auto;
+  }
+
+  .testim-ptr-img {
+    width: 100%;
+  }
+
   .Contact-Text {
     position: absolute;
     width: 90%;
-    margin: -30% 5% 0 5%;
+    margin: -70% 5% 0 5%;
     padding: 3% 4% 4% 4%;
     background-color: #F7F5F2;
     opacity: 0.95;
