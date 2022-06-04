@@ -473,11 +473,11 @@ see above */
   }
 
   .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .logo-icon {
-    width: 45px;
+    width: 40px;
   }
 
   .landing-page {
@@ -589,6 +589,11 @@ see above */
     border-width: thick;
     border-color: white;
     z-index: 2;
+  }
+
+  .showhome-link {
+    width: 90%;
+    margin: 0 5% 2% 5%;
   }
 
 
