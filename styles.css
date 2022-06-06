@@ -459,6 +459,14 @@ see above */
   margin-bottom: 10px;
 }
 
+.icon-btn {
+  color: black;
+}
+
+.icon-btn:hover {
+  color: #D3E4CD;
+}
+
 @media (max-width: 1028px) {
   h3 {
     font-size: 1.6rem;
@@ -490,7 +498,7 @@ see above */
   }
 
   .land-img-container{
-    height: 500px;
+    height: 550px;
     width: 100%;
     overflow: hidden;
     text-align: center;
@@ -499,9 +507,9 @@ see above */
   .landing-graphic-img {
     display: none;
     position: inherit;
-    height: 500px;
+    height: 550px;
     /* width: 900px; */
-    min-width: 750px;
+    min-width: 825px;
     max-width: none;
     margin: 0 0 0 -30%;
     /* left: -170px; */
@@ -512,14 +520,22 @@ see above */
 
   .landing-graphic-img-contact {
     position: inherit;
-    height: 500px;
+    height: 550px;
     /* width: 900px; */
-    min-width: 750px;
+    min-width: 825px;
     max-width: none;
     margin: 0 0 0 -30%;
     /* left: -170px; */
     /* top: 0; */
     clip: rect(auto, auto, auto, auto);
+  }
+
+  .testim-quote {
+    margin: -10% 5% 0 5%;
+  }
+
+  .intro-heading-test {
+    margin: 2% 0 2% 0;
   }
 
   .OD-rw-test {
@@ -576,12 +592,13 @@ see above */
 
   .testim-ptr-img {
     width: 100%;
+    margin-bottom: 7%;
   }
 
   .Contact-Text {
     position: absolute;
     width: 90%;
-    margin: -70% 5% 0 5%;
+    margin: -50% 5% 0 5%;
     padding: 3% 4% 4% 4%;
     background-color: #F7F5F2;
     opacity: 0.95;
@@ -591,9 +608,13 @@ see above */
     z-index: 2;
   }
 
+  .Matrls-spacer {
+    margin-bottom: 100%;
+  }
+
   .showhome-link {
-    width: 90%;
-    margin: 5% 7% 5% 7%;
+    width: 86%;
+    margin: 5% 7% 10% 7%;
   }
 
 
