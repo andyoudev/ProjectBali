@@ -46,7 +46,7 @@ $(document).ready(function(){
    Email.send({
     Host : "smtp-relay.sendinblue.com",
     Username : "and.you.dev@gmail.com",
-    Password : "RQnVaC0tmEXwGJqh",
+    Password : "RQnVaC0tmEX",
     To : 'and.you.dev@gmail.com',
     From : "and.you.dev@gmail.com",
     Subject : "This is the subject",

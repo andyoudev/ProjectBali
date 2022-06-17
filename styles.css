@@ -614,6 +614,7 @@ see above */
 
   .showhome-link {
     width: 86%;
+    max-width: 425px;
     margin: 5% 7% 10% 7%;
   }
 
