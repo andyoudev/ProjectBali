@@ -467,7 +467,9 @@ see above */
   color: #D3E4CD;
 }
 
-@media (max-width: 1028px) {
+/* @media (max-width: 1028px) { */
+@media (max-width: 768px) {
+
   h3 {
     font-size: 1.6rem;
   }

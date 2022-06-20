@@ -32,9 +32,9 @@ $(document).ready(function(){
   //   window.open('mailto:address@mail.com?subject=sub&body=this is body');
   // });
   $("#openEmailClientBtn").click(function (event) {
-       var email = 'sample@gmail.com';
-       var subject = 'Test';
-       var emailBody = 'Hi Sample,';
+       var email = 'enquiries@projectbali.com';
+       var subject = 'Project Bali Website Enquiry';
+       var emailBody = 'Hi Project Bali,';
        // var attach = 'path';
        window.open("mailto:"+email+"?subject="+subject+"&body="+emailBody);
        // document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody;
@@ -43,17 +43,11 @@ $(document).ready(function(){
 
 //hmmm might not be able to use for free...
  $("#submitEmailForm").click(function() {
-   Email.send({
-    Host : "smtp-relay.sendinblue.com",
-    Username : "and.you.dev@gmail.com",
-    Password : "RQnVaC0tmEX",
-    To : 'and.you.dev@gmail.com',
-    From : "and.you.dev@gmail.com",
-    Subject : "This is the subject",
-    Body : "test"
-    }).then(
-      message => alert(message)
-    );
+   var email = 'enquiries@projectbali.com';
+   var subject = 'Project Bali Website Enquiry';
+   var emailBody = $("#contactFormEmailBody").text();
+   window.open("mailto:"+email+"?subject="+subject+"&body="+emailBody);
+
 });
 
 
