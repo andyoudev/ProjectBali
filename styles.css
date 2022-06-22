@@ -468,7 +468,9 @@ see above */
 }
 
 /* @media (max-width: 1028px) { */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { */
+@media (max-width: 968px) {
+
 
   h3 {
     font-size: 1.6rem;
