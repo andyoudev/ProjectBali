@@ -289,7 +289,8 @@ p {
 
 
 .testim-ptr-img {
-  width: 450px;
+  width: 100%;
+  /* width: 450px; */
 }
 
 .testim-body-mats {
@@ -321,11 +322,10 @@ p {
 .WWD-lndscp-sml-img
 See above */
 
-.OD-rw-test-3bdr {
+/* .OD-rw-test-3bdr {
   width: 1300px;
   margin: 0 10% 5% 10%;
-  /* padding: 10px 15px 0 15px; */
-}
+} */
 
 .des-spacer {
   margin-top: 7%;
@@ -381,8 +381,8 @@ see above */
 }
 
 .testim-content-1 {
-  width: 1050px;
-  /* width: 80%; */
+  /* width: 1050px; */
+  width: 70%;
   margin: 0 15% 8% 15%;
 }
 
