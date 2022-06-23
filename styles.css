@@ -472,6 +472,10 @@ see above */
   .navbar-brand {
     font-size: 1.4rem;
   }
+
+  .logo-icon {
+    width: 35px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -493,9 +497,9 @@ see above */
     font-size: 1.4rem;
   } */
 
-  .logo-icon {
+  /* .logo-icon {
     width: 35px;
-  }
+  } */
 
   .landing-page {
     width: 100%;
