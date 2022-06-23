@@ -468,8 +468,13 @@ see above */
 }
 
 /* @media (max-width: 1028px) { */
-/* @media (max-width: 768px) { */
-@media (max-width: 768px) {
+@media (max-width: 990px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 767px) {
 
 
   h3 {
@@ -484,9 +489,9 @@ see above */
     padding: 0 0 0.9rem;
   }
 
-  .navbar-brand {
+  /* .navbar-brand {
     font-size: 1.4rem;
-  }
+  } */
 
   .logo-icon {
     width: 35px;
