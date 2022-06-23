@@ -145,7 +145,7 @@ p {
   color: black;
   opacity: 0.2;
   letter-spacing: 2px;
-  margin: 15% 0 0 0;
+  margin: 15% 5% 0 5%;
   z-index: -1;
 }
 
@@ -168,13 +168,21 @@ p {
   width: 100%;
 }
 
+.quote-wrapper {
+  max-width: 425px;
+  margin: 0 auto 0 auto;
+}
+
+
+
 .testim-quote {
   position: relative;
   font-size: 0.95rem;
   width: 90%;
+  max-width: 385px;
   background-color: #D3E4CD;
   padding: 4% 7% 2% 6%;
-  margin: -15% 5% 0 5%;
+  margin: -15% auto 0 auto;
   border-style: solid;
   border-width: thick;
   border-color: white;
