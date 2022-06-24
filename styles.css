@@ -192,6 +192,7 @@ p {
 .testim-link {
   font-family: "Quattrocento", serif;
   text-decoration: none;
+  /* text-align: left; */
   color: black;
 }
 
@@ -379,6 +380,7 @@ see above */
 
 .testim-title {
   font-size: 1.4rem;
+  text-align: left;
   font-weight: bold;
   margin-top: 1%;
 }
@@ -478,7 +480,8 @@ see above */
 /* @media (max-width: 1028px) { */
 
 
-@media (max-width: 767px) {
+@media (max-width: 960px) {
+  /* @media (max-width: 767px) { */
 
 
   h3 {
