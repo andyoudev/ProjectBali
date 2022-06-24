@@ -480,7 +480,7 @@ see above */
 /* @media (max-width: 1028px) { */
 
 
-@media (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   /* @media (max-width: 767px) { */
 
 
