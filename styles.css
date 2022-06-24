@@ -483,6 +483,14 @@ see above */
 @media only screen and (max-width: 960px) {
   /* @media (max-width: 767px) { */
 
+  /* :root {
+    --screen-height: calc(100%);
+    --landing-image-height: calc(var(--screen-height * 0.9));
+    --landing-min-img-width: calc(var(--landing-image-height / 0.6666));
+    --screen-height: calc(100%);
+    --landing-image-height: 550px;
+    --landing-min-img-width: var(--landing-image-height / 0.6666);
+  } */
 
   h3 {
     font-size: 1.6rem;
@@ -514,7 +522,8 @@ see above */
   }
 
   .land-img-container{
-    height: 550px;
+    height: 640px;
+    /* height: var(--landing-image-height); */
     width: 100%;
     overflow: hidden;
     text-align: center;
@@ -523,9 +532,11 @@ see above */
   .landing-graphic-img {
     display: none;
     position: inherit;
-    height: 550px;
+    height: 640px;
+    /* height: var(--landing-image-height); */
     /* width: 900px; */
-    min-width: 825px;
+    min-width: 960px;
+    /* min-width: var(--landing-min-img-width); */
     max-width: none;
     margin: 0 0 0 -30%;
     /* left: -170px; */
@@ -536,14 +547,18 @@ see above */
 
   .landing-graphic-img-contact {
     position: inherit;
-    height: 550px;
+    height: 640px;
     /* width: 900px; */
-    min-width: 825px;
+    min-width: 960px;
     max-width: none;
     margin: 0 0 0 -30%;
     /* left: -170px; */
     /* top: 0; */
     clip: rect(auto, auto, auto, auto);
+  }
+
+  #intro-section {
+    margin-top: 10%;
   }
 
   .testim-quote {
