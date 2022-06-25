@@ -700,6 +700,8 @@ see above */
     clip: rect(auto, auto, auto, auto);
   }
 
-
+  #intro-section {
+    margin-top: 0;
+  }
 
 }
