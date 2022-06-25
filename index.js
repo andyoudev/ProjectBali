@@ -45,9 +45,9 @@ $(document).ready(function(){
  $("#submitEmailForm").click(function() {
    var email = 'enquiries@projectbali.com';
    var subject = 'Project Bali Website Enquiry';
-   var emailBody = $("#contactFormEmailBody").text();
+   var emailBody = $("#contactFormEmailBody").val();
    window.open("mailto:"+email+"?subject="+subject+"&body="+emailBody);
-
+   console.log(emailBody);
 });
 
 

@@ -406,8 +406,8 @@ see above */
 
 .Contact-Text {
   position: absolute;
-  width: 40%;
-  margin: -30% 30% 0 30%;
+  width: 60%;
+  margin: -30% 20% 0 20%;
   padding: 3% 4% 4% 4%;
   background-color: #F7F5F2;
   opacity: 0.95;
@@ -444,6 +444,11 @@ see above */
 #footer-test {
   text-align: center;
   padding: 0 0 3% 0;
+}
+
+.contact-socials {
+  text-align: center;
+  padding: 10% 0 3% 0;
 }
 
 .showhome-link {
@@ -654,9 +659,46 @@ see above */
 
 
 
+}
 
 
+@media only screen and (max-width: 590px) {
 
+  .land-img-container{
+    height: 550px;
+    /* height: var(--landing-image-height); */
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .landing-graphic-img {
+    display: none;
+    position: inherit;
+    height: 550px;
+    /* height: var(--landing-image-height); */
+    /* width: 900px; */
+    min-width: 825px;
+    /* min-width: var(--landing-min-img-width); */
+    max-width: none;
+    margin: 0 0 0 -30%;
+    /* left: -170px; */
+    /* top: 0; */
+    clip: rect(auto, auto, auto, auto);
+    /* overflow: hidden; doesn't work*/
+  }
+
+  .landing-graphic-img-contact {
+    position: inherit;
+    height: 550px;
+    /* width: 900px; */
+    min-width: 825px;
+    max-width: none;
+    margin: 0 0 0 -30%;
+    /* left: -170px; */
+    /* top: 0; */
+    clip: rect(auto, auto, auto, auto);
+  }
 
 
 
