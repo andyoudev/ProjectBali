@@ -27,6 +27,44 @@ $(document).ready(function(){
 
   });
 
+  //Drop down menu code ---------------------------------------------------------------
+  let thisScreenWidth = window.screen.width;
+  //console.log(thisScreenWidth);
+
+  $("#WWD-menu-item").mouseover(function() {
+    if(thisScreenWidth > 960) {
+    $("#WWD-dropdown").show();
+    }
+
+    $("#WWD-menu-item").mouseout(function() {
+      $("#WWD-dropdown").hide();
+    });
+  });
+
+  $("#WUS-menu-item").mouseover(function() {
+    if(thisScreenWidth > 960) {
+    $("#WUS-dropdown").show();
+    }
+
+    $("#WUS-menu-item").mouseout(function() {
+      $("#WUS-dropdown").hide();
+    });
+  });
+
+  $("#ODE-menu-item").mouseover(function() {
+    if(thisScreenWidth > 960) {
+    $("#ODE-dropdown").show();
+    }
+
+    $("#ODE-menu-item").mouseout(function() {
+      $("#ODE-dropdown").hide();
+    });
+  });
+
+
+
+  //------------------------------------------------------------------------------------
+
 
   // $("#openEmailClientBtn").click(function() {
   //   window.open('mailto:address@mail.com?subject=sub&body=this is body');
@@ -47,7 +85,7 @@ $(document).ready(function(){
    var subject = 'Project Bali Website Enquiry';
    var emailBody = $("#contactFormEmailBody").val();
    window.open("mailto:"+email+"?subject="+subject+"&body="+emailBody);
-   console.log(emailBody);
+   //console.log(emailBody);
 });
 
 

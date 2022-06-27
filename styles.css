@@ -51,6 +51,24 @@ p {
   font-family: 'Numans', sans-serif;
 }
 
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+
+.nav-link-dd {
+  font-size: 1rem;
+  font-family: 'Numans', sans-serif;
+  text-decoration: none;
+  color: black;
+  margin: 0 0 1% 0;
+  padding: 0 8px 0 8px;
+}
+
+.nav-link-dd:hover {
+  color: grey;
+}
+
 .active {
   text-decoration: overline;
 }
