@@ -92,36 +92,6 @@ p {
   height: 600px;
 }
 
-/* Landing Graphic */
-/* #landing-graphic1 {
-  display: none;
-}
-
-#landing-graphic2 {
-  display: none;
-}
-
-#landing-graphic3 {
-  display: none;
-}
-
-#landing-graphic4 {
-  display: none;
-}
-
-#landing-graphic5 {
-  display: none;
-}
-
-#landing-graphic6 {
-  display: none;
-} */
-
-/* .photo-width-test {
-  width: 100%;
-  left: 0;
-} */
-
 
 .landing-graphic-img {
   display: none;
@@ -144,15 +114,6 @@ p {
   clip: rect(300px, auto, auto,0);
 }
 
-/* .test-div {
-  position: absolute;
-  width: 1500px;
-  height: 700px;
-  left: 0;
-  top: 130px;
-  background-color: red;
-  z-index: -1;
-} */
 
 .PB-Logo-main-anim {
   position: relative;
@@ -236,12 +197,6 @@ p {
   margin: 0 10% 0 10%;
   /* padding: 10px 15px 0 15px; */
 }
-
-/* .intro-heading-test-home {
-  letter-spacing: 1.5px;
-  text-align: left;
-  margin: 10% 0 2% 3%;
-} */
 
 .intro-heading-test {
   letter-spacing: 1.5px;
@@ -345,26 +300,10 @@ p {
 }
 
 
-/* .WWD-sml-photo-rw
-.WWD-lndscp-sml-img
-See above */
-
-/* .OD-rw-test-3bdr {
-  width: 1300px;
-  margin: 0 10% 5% 10%;
-} */
-
 .des-spacer {
   margin-top: 7%;
 }
 
-/* .WWD-Cust-Title
-see above */
-
-/* .testim-body-feat {
-  font-size: 1rem;
-  width: 370px;
-} */
 
 .WWD-lndscp-sml-img-feat {
   width: 100%;
@@ -373,9 +312,6 @@ see above */
 
 /* Testimonials */
 
-/* .testim-content-2
-.testim-ptr-img
-see above */
 
 .testimonials-text {
   /* margin-top: 30%; */
@@ -391,9 +327,7 @@ see above */
   /* width: 1050px; */
   /* width: 1300px; */
   margin: 0 15% 0 15%;
-  /* padding: 10px 15px 0 15px; */
-  /* margin: auto; */
-  /* padding: 10px 15px 0 15px; */
+
 }
 
 .testim-title {
@@ -506,14 +440,6 @@ see above */
 @media only screen and (max-width: 960px) {
   /* @media (max-width: 767px) { */
 
-  /* :root {
-    --screen-height: calc(100%);
-    --landing-image-height: calc(var(--screen-height * 0.9));
-    --landing-min-img-width: calc(var(--landing-image-height / 0.6666));
-    --screen-height: calc(100%);
-    --landing-image-height: 550px;
-    --landing-min-img-width: var(--landing-image-height / 0.6666);
-  } */
 
   h3 {
     font-size: 1.6rem;

@@ -29,10 +29,11 @@ $(document).ready(function(){
 
   //Drop down menu code ---------------------------------------------------------------
   let thisScreenWidth = window.screen.width;
+  let useDDscreenWidth = 960;
   //console.log(thisScreenWidth);
 
   $("#WWD-menu-item").mouseover(function() {
-    if(thisScreenWidth > 960) {
+    if(thisScreenWidth > useDDscreenWidth) {
     $("#WWD-dropdown").show();
     }
 
@@ -42,7 +43,7 @@ $(document).ready(function(){
   });
 
   $("#WUS-menu-item").mouseover(function() {
-    if(thisScreenWidth > 960) {
+    if(thisScreenWidth > useDDscreenWidth) {
     $("#WUS-dropdown").show();
     }
 
@@ -52,7 +53,7 @@ $(document).ready(function(){
   });
 
   $("#ODE-menu-item").mouseover(function() {
-    if(thisScreenWidth > 960) {
+    if(thisScreenWidth > useDDscreenWidth) {
     $("#ODE-dropdown").show();
     }
 
