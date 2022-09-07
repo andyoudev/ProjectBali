@@ -609,7 +609,12 @@ p {
     margin: 5% auto 10% auto;
   }
 
-
+  .contact-socials {
+    text-align: center;
+    padding: 10% 0 3% 0;
+    margin: 0 -5% -5% -5%;
+    background-color: white;
+  }
 
 
 
@@ -657,6 +662,13 @@ p {
 
   #intro-section {
     margin-top: 0;
+  }
+
+  .contact-socials {
+    text-align: center;
+    padding: 10% 0 3% 0;
+    margin: 0 -5% -5% -5%;
+    background-color: white;
   }
 
 }
